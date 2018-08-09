@@ -1,0 +1,32 @@
+<header id="global_header" class="header">
+  <div id="header_classification" class="classification text-center">
+    <span>UNCLASSIFIED</span>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" routerLink="/" (click)="isNavbarCollapsed = true" [attr.aria-expanded]="!isNavbarCollapsed">DAMIR-Admin</a>
+    <button type="button" class="navbar-toggler" aria-label="Toggle navigation" (click)="isNavbarCollapsed = !isNavbarCollapsed" [attr.aria-expanded]="!isNavbarCollapsed"  aria-controls="navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" [ngbCollapse]="isNavbarCollapsed">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="isNavbarCollapsed = true" [attr.aria-expanded]="!isNavbarCollapsed">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/placeholder" routerLinkActive="active" (click)="isNavbarCollapsed = true" [attr.aria-expanded]="!isNavbarCollapsed">Placeholder 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/placeholder" routerLinkActive="active" (click)="isNavbarCollapsed = true" [attr.aria-expanded]="!isNavbarCollapsed">Placeholder 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/placeholder" routerLinkActive="active" (click)="isNavbarCollapsed = true" [attr.aria-expanded]="!isNavbarCollapsed">Placeholder 3</a>
+        </li>
+      </ul>
+      <span class="navbar-text username">
+         {{ userName }}
+      </span>
+    </div>
+  </nav>
+  <div class="header-accent-bar"></div>
+</header>

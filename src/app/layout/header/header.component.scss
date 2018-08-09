@@ -1,0 +1,34 @@
+@import "~src/styles.scss";
+
+header {
+    margin-bottom: 2rem;
+
+    .header-accent-bar {
+        background-color: $header-accent-color;
+        height: 5px;
+    }
+
+    nav {
+        &.navbar {
+            background-color: $header-color;
+            background-image: url($header-bg);
+            border-bottom: none;
+            margin-bottom: 0;
+
+            .navbar-brand {
+                font-size: 24px;
+                font-family: Merriweather;
+                margin-right: 30px;
+                margin-left: 15px;
+                font-weight: bold;
+                text-decoration: none;
+                vertical-align: middle;
+            }
+
+            .username {
+                text-transform: uppercase;
+                color: #fff !important;
+            }
+        }
+    }
+}

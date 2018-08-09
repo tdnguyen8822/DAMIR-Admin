@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+@import "/assets/styles/_variables.scss";
+
+body {
+    font-family: $font-stack;
+}
+
+.classification {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: $unclassified-color;
+}
