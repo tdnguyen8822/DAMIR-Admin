@@ -19,7 +19,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-STARTING AN ANGULAR 6 / BOOTSTRA 4 PROJECT
+## STARTING AN ANGULAR 6 / BOOTSTRA 4 PROJECT
 I.	Angular environment installation
     1.	Install Node.js and Node Package Manager (npm)
         i.	Download the Windows installer from the Nodes.js® web site. https://nodejs.org/en/
